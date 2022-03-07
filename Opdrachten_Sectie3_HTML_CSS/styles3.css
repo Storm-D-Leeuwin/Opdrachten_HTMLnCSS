@@ -1,0 +1,28 @@
+img {
+    width: 20%;
+    height: auto;
+}
+
+header h2, footer h1{
+    color: green;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h3{
+    color: red;
+}
+
+header h4, article h3{
+    color: blue;
+}
+
+article h4{
+    color: lightgreen;
+}
+
+footer h1{
+    font-size: 50px;
+}
