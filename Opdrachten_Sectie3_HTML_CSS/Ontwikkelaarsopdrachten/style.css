@@ -4,3 +4,11 @@
 #tweedekleur{
     color: rgba(0, 0, 0, 0.253);
 }
+
+img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
