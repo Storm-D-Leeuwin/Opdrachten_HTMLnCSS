@@ -1,0 +1,13 @@
+p{
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 1000px; 
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: 50px;
+    width: auto;
+}
