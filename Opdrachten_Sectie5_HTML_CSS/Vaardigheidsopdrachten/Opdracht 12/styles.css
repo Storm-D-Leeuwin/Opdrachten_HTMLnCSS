@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.aa, .bb{
+    width: 75%;
+    height: 25vh;
+}
+
+.aa img, .bb img{
+    width: 33.33333333%;
+    height: 100%;
+    float: left;
+}
+
+.cc{
+    
+   float: right;
+    width: 25%;
+    height: 50vh;
+    /* border: 2px solid black; */
+}
+
+.cc img{
+    height: 100%;
+    width: 99%;
+}
+
+.dd{
+    height: 50vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.imgg{
+    width: 25%;
+    height: 50vh;
+    float: right;
+}
+
+/* .divcc{
+    width: 25%;
+    height: 50vh;
+    float: right;
+    border: 2px solid black;
+} */
+
+img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
