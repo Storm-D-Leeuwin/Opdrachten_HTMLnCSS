@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.box {
+    height: 30px;
+    width: 150px;
+    margin: 3px;
+    float: left;
+  }
+
+  .box p{
+      text-align: center;
+      padding-top: 6px;
+  }
+
+.groen{
+    background-color: green;
+}
+
+.geel{
+    background-color: yellow;
+}
+
+.rood{
+    background-color: red;
+}
+
+.blauw{
+    background-color: blue;
+}
+
