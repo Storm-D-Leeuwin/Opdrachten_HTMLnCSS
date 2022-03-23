@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+    <!-- TITLE -->
+
+        <h1 class="text">Flexbox</h1>
+
+    <!-- BOX AROUND THE TWO BOXES -->
+
+        <div class="big-box">
+
+    <!-- LEFTBOX -->
+
+            <div class="left-box">
+                <div class="box1">
+                    <p>Container Properties</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Creates a Flexbox</p>
+                    </div>
+                        <p>display: flex;</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Direction, establishes main-axis</p>
+                    </div>
+                        <p>flex-direction: row || row-reverse || column || column-reverse</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//To wrap or not to wrap</p>
+                    </div>
+                        <p>flex-wrap: nowrap || wrap || column || column-reverse</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Shorthanded (direction wrap)</p>
+                    </div>
+                        <p>flex-flow: flex-direciton flex-wrap</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Allignement main axis</p>
+                    </div>
+                        <p>justify-content: flex-start || flex-end || center || space-between || space-around || space-evenly</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Allignement cross axis</p>
+                    </div>
+                        <p>align-items: stretch || flex-start || flex-end || center || baseline</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>Alignement lines within the container</p>
+                    </div>
+                        <p>align-content: normal || flex-start || flex-end || center || space-between || space-around || space-evenly || stretch</p>
+                </div>
+                <div class="box"></div>
+            </div>
+
+    <!-- RIGHTBOX -->
+
+            <div class="right-box">
+                
+                <div class="box1">
+                    <p>Item Properties</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Order of the (flex) html-elements</p>
+                    </div>
+                        <p>order: integer (default: 0)</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Ability to grow if necessary</p>
+                    </div>
+                        <p>flex-grow: integer (default: 0)</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Ability to shrink if necessary</p>
+                    </div>
+                        <p>flex-shrink: positive integer (default: 1)</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Defines default size of the item</p>
+                    </div>
+                        <p>flex-basis length || keyword (default: auto)</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Shorthanded (grow shrink basis)</p>
+                    </div>
+                        <p>flex: flex-grow flex-shrink flex-basis (default 0 1 auto)</p>
+                </div>
+                <div class="box">
+                    <div class="purple-box">
+                        <p>//Override default alignment form align-items</p>
+                    </div>
+                        <p>align-self: auto || flex-start || flex-end || center || baseline || stretch</p>
+                </div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
