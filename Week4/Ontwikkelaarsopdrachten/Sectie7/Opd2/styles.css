@@ -1,0 +1,27 @@
+.container{
+    background-color: (lightgreen);
+    border: 5px solid lightsalmon;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+
+    border: 1px solid black;
+    margin: 5px;
+    min-width: 250px;
+    background-color: lightgreen;
+}
+
+.box-home{
+    flex-grow: 3;
+}
