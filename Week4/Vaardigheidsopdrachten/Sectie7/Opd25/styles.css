@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container{
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+   
+}
+
+.flex_child{
+    border: 2px solid green;
+    flex-shrink: 1;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box3, .box2{
+    flex-grow: 1;
+}
+
+.box1{
+    align-self: flex-end;
+}
+
+.box3{
+    align-self: flex-start;
+}
+
+.box4{
+    align-self: center;
+}
