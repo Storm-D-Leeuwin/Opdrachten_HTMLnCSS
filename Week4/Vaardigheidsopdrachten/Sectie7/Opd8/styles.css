@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container{
+    height: 300px;
+    width: 600px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_child{
+    border: 2px solid green;
+    flex-grow: 1;
+    height: fit-content;
+    flex-shrink: 0;
+    flex-basis: 100px;
+    max-width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
