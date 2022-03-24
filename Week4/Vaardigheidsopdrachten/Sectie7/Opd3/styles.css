@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    height: 300px;
+    width: 500px;
+    border: 3px solid black;
+
+    display: flex;
+    align-items: stretch;
+}
+
+.flex_child{
+    border: 2px solid green;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
