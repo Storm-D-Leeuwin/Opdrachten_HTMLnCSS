@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.flex_child{
+    border: 2px solid green;
+    flex-grow: 1;
+    max-height: 150px;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    max-width: 50px;
+}
