@@ -1,0 +1,66 @@
+/* 
+rgb(0, 191, 255); Blue
+rgb(250, 181, 250); Pink
+rgb(216, 93, 216); Purple
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: beige;
+    text-align: center;
+}
+
+.inside-container{
+    background-color: rgb(250, 181, 250);
+    border: 3px dashed black;
+    margin: 0 5px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill, min-content);
+
+    gap: 10px;
+}
+
+.left-box,
+.right-box{
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-rows: repeat(auto-fill, min-content);
+
+    gap: 3px;       
+}
+
+.box{
+    border: 2px dotted rgb(0, 191, 255);
+    height: 50px;
+
+    display: grid;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.purple-box{
+    width: 98%;
+    height: min-content;
+
+    background-color:rgb(216, 93, 216);
+
+    text-align: center;
+
+    justify-self: center;
+    font-weight: bold;
+}
+
+.right-box{
+    align-content: flex-start;
+}
